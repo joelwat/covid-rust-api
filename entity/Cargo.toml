@@ -1,0 +1,12 @@
+[package]
+edition = "2021"
+name    = "entity"
+version = "0.1.0"
+
+[dependencies]
+sea-orm = { version = "0.6.0", features = [
+  "sqlx-mysql",
+  "runtime-actix-rustls",
+  "macros",
+], default-features = false }
+serde = { version = "1.0.136", features = ["derive"] }

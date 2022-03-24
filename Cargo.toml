@@ -1,0 +1,14 @@
+[package]
+edition = "2021"
+name    = "covid_rust_api"
+version = "0.1.0"
+
+[workspace]
+members = [".", "entity", "migration"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+entity      = { path = "entity" }
+migration   = { path = "migration" }
+sea-orm-cli = "0.6.0"
