@@ -1957,9 +1957,9 @@ dependencies = [
 
 [[package]]
 name = "sea-orm-cli"
-version = "0.12.10"
+version = "0.12.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "acc21813f3a91462280bee40632298a555eafe9dd8feb74917f9c24514214c2e"
+checksum = "747f032e4abd58a6cacdb21275cc13448b4ff4b368f5f578ece465957ae7b417"
 dependencies = [
  "async-std",
  "chrono",
@@ -1977,9 +1977,9 @@ dependencies = [
 
 [[package]]
 name = "sea-orm-codegen"
-version = "0.12.10"
+version = "0.12.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3ca64dd8aec252b8aa2096d8b2cabb8b9f9cd292d4fbab99ab3efe072c29a4e4"
+checksum = "f6261fe6b47a68edd4e83b829f656493d0a255d09daa38fc666bef861d6f3245"
 dependencies = [
  "heck 0.4.1",
  "proc-macro2",
