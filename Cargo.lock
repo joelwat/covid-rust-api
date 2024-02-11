@@ -1957,9 +1957,9 @@ dependencies = [
 
 [[package]]
 name = "sea-orm-cli"
-version = "0.12.11"
+version = "0.12.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "747f032e4abd58a6cacdb21275cc13448b4ff4b368f5f578ece465957ae7b417"
+checksum = "465ea2308d4716837e9af4a2cff8e14c28135867a580bb93e9e03d408a3a6afb"
 dependencies = [
  "async-std",
  "chrono",
@@ -1968,7 +1968,7 @@ dependencies = [
  "glob",
  "regex",
  "sea-orm-codegen",
- "sea-schema 0.14.1",
+ "sea-schema 0.14.2",
  "sqlx 0.7.2",
  "tracing",
  "tracing-subscriber",
@@ -1977,9 +1977,9 @@ dependencies = [
 
 [[package]]
 name = "sea-orm-codegen"
-version = "0.12.11"
+version = "0.12.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f6261fe6b47a68edd4e83b829f656493d0a255d09daa38fc666bef861d6f3245"
+checksum = "515fb555cbbe586cd2c251a39fbc6d0e52a84b353dd63c4320205553b865ac81"
 dependencies = [
  "heck 0.4.1",
  "proc-macro2",
@@ -2090,9 +2090,9 @@ dependencies = [
 
 [[package]]
 name = "sea-schema"
-version = "0.14.1"
+version = "0.14.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0cd9561232bd1b82ea748b581f15909d11de0db6563ddcf28c5d908aee8282f1"
+checksum = "30d148608012d25222442d1ebbfafd1228dbc5221baf4ec35596494e27a2394e"
 dependencies = [
  "futures",
  "sea-query 0.30.5",
