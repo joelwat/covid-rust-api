@@ -11,4 +11,4 @@ members = [".", "entity", "migration"]
 [dependencies]
 entity      = { path = "entity" }
 migration   = { path = "migration" }
-sea-orm-cli = "1.0.0"
+sea-orm-cli = "2.0.0"
